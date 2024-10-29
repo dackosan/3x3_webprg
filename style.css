@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.grid-item {
+    background-color: rgb(83, 116, 24);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+}
